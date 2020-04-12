@@ -1,0 +1,21 @@
+body {
+    min-width:368px;
+    overflow-x:hidden;
+  } 
+
+.btn {
+  border-radius: 30px !important;
+}
+
+.bg-wapp {
+  background-color: #25d366 !important;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+#btn-go-to-home {
+  cursor: pointer;
+}

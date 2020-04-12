@@ -1,0 +1,14 @@
+{
+    "manifest_version":2,
+    "name":"Turno A Distancia Extension",
+    "version": "0.0.3",
+    "browser_action":{
+        "default_icon":"pict.png",
+        "default_popup":"popup.html",
+        "default_title": "Turno A Distancia"
+    },
+    "permissions": ["<all_urls>",
+        "storage",
+        "tabs"
+    ]
+}

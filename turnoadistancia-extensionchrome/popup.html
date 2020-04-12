@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="theme.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Turno a Distancia</title>
+       <style>
+        
+       </style>
+       <script src="popup.js"></script>
+   </head>
+   <body>
+       <div id="inputcode" class="p-3 container w-100">
+          <div class="row">
+            <div class="col-12">
+              <h6 class="logo text-center">TURNOADISTANCIA.COM</h6>
+              <div class="form-group mt-3">
+                <input class="form-control form-control-sm" placeholder="Introduce el c&oacute;digo de la lista de espera" type="text" id="result" />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <div class="form-group">
+                <button
+                  id='sbmt'
+                  class="w-100 border-0 btn btn-primary bg-wapp"
+                >Enviar</button>
+             </div>
+            </div>
+          </div>
+       </div>
+       
+       <div id="panel" class="d-none p-3 container w-100">
+          <div class="d-flex justify-content-between" id="title">
+            <h6 id="maintitle"></h6>
+            <a id="btn-go-to-home" style="color: #25d366">Volver a Inicio</a>
+          </div>
+          <table class="table">
+            <thead id="infopanel">
+              <tr>
+                <th scope="col">&Aacute;rea</th>
+                <th scope="col">Avanzar +1 el turno</th>
+                <th scope="col">N&ordm; Actual</th>
+              </tr>
+            </thead>
+            <tbody class="w-100" id="table_controller"></tbody>
+          </table>
+          <div id="reset" class="panel panel-default"></div>
+       </div>
+       
+       <div id="error-page" class="d-none p-3 container">
+         <div class="w-100 p-3">
+          <h6>Ha habido un error. Por favor, vuelve a intentarlo en la página de inicio</h6>
+          <button id="back-to-home" class="btn bg-wapp p-3">Volver al inicio</button>
+         </div>
+       </div>
+   </body>
+</html>
