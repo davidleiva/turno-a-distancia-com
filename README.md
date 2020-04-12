@@ -74,7 +74,7 @@
 
 <span class="c0"></span>
 
-<span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 245.86px; height: 531.50px;">![](images/pic_landbot.jpg)</span>
+<span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 245.86px; height: 531.50px;">![](images/pic_bot.jpg)</span>
 
 <span class="c0"></span>
 
@@ -82,7 +82,7 @@
 
 <span class="c0"></span>
 
-<span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 602.00px; height: 338.67px;">![](images/pic_bot.png)</span>
+<span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 602.00px; height: 338.67px;">![](images/pic_landbot.png)</span>
 
 <span class="c0"></span>
 
@@ -147,3 +147,7 @@
 <span class="c0"></span>
 
 <span class="c0">Hemos generado una mínima app en react. En principio esta App trabajaba con una api en node y una base de datos en mongo, pero por no tener tiempo ni recursos suficientes nos decidimos por optar por un prototipo mínimo, mostrando simplemente el look and feel y funcionalidades mínimas, con la vista puesta a una futura implementación al 100%.</span>
+
+<span class="c0"></span>
+
+<span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 720.00px; height: 383.50px;">![](images/pic_home.png)</span>
